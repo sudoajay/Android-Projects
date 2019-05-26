@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/duplicate_File"
+            android:icon="@drawable/scan_file"
+            android:title="Duplicate File" />
+        <item
+            android:id="@+id/coming_Soon1"
+            android:icon="@drawable/coming_soon"
+            android:title="Coming Soon" />
+        <item
+            android:id="@+id/coming_Soon2"
+            android:icon="@drawable/coming_soon"
+            android:title="Coming Soon" />
+    </group>
+<menu></menu>
+    <item android:title="Communicate">
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+    </item>
+
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_Write_Something"
+            android:icon="@drawable/writesometing"
+            android:title="Write Something" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/notes"
+            android:title="Notes" />
+
+        <item
+            android:id="@+id/nav_About_Maker"
+            android:icon="@drawable/aboutme"
+            android:title="About Maker" />
+        <item
+            android:id="@+id/nav_Log_Out"
+            android:icon="@drawable/logout"
+            android:title="Log Out" />
+
+    </group>
+
+
+
+</menu>
